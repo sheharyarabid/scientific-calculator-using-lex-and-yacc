@@ -2,10 +2,10 @@
 A scientific calculator program that accepts simple arithmetic expressions, constants such as PI and scientific functions such as log, sin, cos, tan and square root. The calculator program reads input from the user, tokenize the input using Lex, parse the tokens using Yacc, and evaluate the expression to produce the result. Given the source code and share the screen that shows the compilation steps and the execution of the program.
 
 To run the program:-
-lex calc.l
-yacc -d calc.y
-cc lex.yy.c y.tab.c -ll -lm
-./a.out
+STEP 1) lex calc.l
+STEP 2) yacc -d calc.y
+STEP 3) cc lex.yy.c y.tab.c -ll -lm
+STEP 4) ./a.out
 
 Basic Code explanation:-
 LEX
